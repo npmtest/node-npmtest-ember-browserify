@@ -1,6 +1,6 @@
 # npmtest-ember-browserify
 
-#### test coverage for  [ember-browserify (v1.1.13)](https://github.com/ef4/ember-browserify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-browserify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-browserify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-browserify.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-browserify)
+#### basic test coverage for  [ember-browserify (v1.1.13)](https://github.com/ef4/ember-browserify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-browserify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-browserify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-browserify.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-browserify)
 
 #### ember-cli addon for easily loading CommonJS modules from npm via browserify.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-browserify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-browserify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-browserify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-browserify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-browserify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-browserify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-browserify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-browserify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-browserify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-browserify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-browserify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-browserify/build/coverage.html/index.html)
 
@@ -114,7 +114,8 @@
         "test": "mocha --inline-diffs",
         "test:debug": "mocha debug --inline-diffs"
     },
-    "version": "1.1.13"
+    "version": "1.1.13",
+    "bin": {}
 }
 ```
 
